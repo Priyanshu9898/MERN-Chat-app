@@ -1,0 +1,44 @@
+.contactBox{
+    /* border: 1px solid blueviolet; */
+    padding: 12px;
+    width: 100%;
+    border-radius: 0.2rem ;
+    overflow: auto;
+    background-color: #ffffff39;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.admin{
+    /* padding: 6px; */
+    width: 100%;
+    border-radius: 0.2rem !important;
+    /* overflow: auto; */
+    background-color: #0d0d30;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.contacts {
+  display: block;
+
+  overflow: auto;
+  
+}
+.selected {
+
+    background-color: #9a86f3;
+
+    
+   
+}
+
+
+.container{
+    display: grid;
+    grid-template-rows: 10% 75% 15%;
+    overflow: hidden;
+    background-color: #080420;
+}
